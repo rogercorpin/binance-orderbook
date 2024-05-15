@@ -1,6 +1,6 @@
 # Real-Time Order Book Builder for Binance API
 
-This Java program utilizes the Binance API to build and maintain real-time order books for the BTC/USDT and ETH/USDT trading pairs. The program updates the order books with a depth of 50 and calculates the total volume change in USDT for each trading pair every 10 seconds.
+This Java Spring Boot program utilizes the Binance API to build and maintain real-time order books for the BTC/USDT and ETH/USDT trading pairs. The program updates the order books with a depth of 50 and calculates the total volume change in USDT for each trading pair every 10 seconds.
 
 ## Instructions
 **Functionality**:
