@@ -78,7 +78,7 @@ public class BinanceApiService {
 
 	public WebSocketClient createWebSocketClient(String websocketUrl) {
 		try {
-			return new WebSocketClient(new URI("xxxxxxx")) {
+			return new WebSocketClient(new URI(websocketUrl)) {
 				@Override
 				public void onOpen(ServerHandshake handshakedata) {
 					System.out.println("Connected to Binance WebSocket");
